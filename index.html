@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+	<title>章节页展示</title>
+	<link rel="stylesheet" type="text/css" href="dist/css/all.min.css" />
+</head>
+<body class="bg-default">
+<div class="loading">
+	<img src="dist/image/book.gif">
+	<div>图书内容加载中……</div>
+</div>
+<div class="pt-menu">
+	<div class="bg"></div>
+	<div class="header">
+		<div class="back"><a href="javascript:alert('跳转地址');"><i class="fa fa-chevron-left"></i> 完美世界</a></div>
+		<div class="button menu-mark"><i class="fa fa-bookmark-o"></i></div>
+		<div class="button menu-marked ptm-hide"><i class="fa fa-bookmark"></i></div>
+		<div class="button menu-more" style="margin-right:5px;"><i class="fa fa-ellipsis-v"></i></div>
+	</div>
+	<div class="footer">
+		<div class="button"><a href="javascript:alert('跳转地址');"><i class="fa fa-th-list"></i><span>目录</span></a></div>
+		<div class="button menu-change"><i class="fa fa-exchange"></i><span>换源</span></div>
+		<div class="button menu-setting"><i class="fa fa-cog"></i><span>设置</span></div>
+		<div class="button menu-cache"><i class="fa fa-download"></i><span>预读</span></div>
+		<div class="button menu-moon"><i class="fa fa-moon-o"></i><span>夜间</span></div>
+		<div class="button menu-sun ptm-hide"><i class="fa fa-sun-o"></i><span>白天</span></div>
+	</div>
+	<div class="center">
+		<div class="button prev"><i class="fa fa-arrow-circle-left"></i> 上一章</div>
+		<div class="button next">下一章 <i class="fa fa-arrow-circle-right"></i></div>
+	</div>
+	<div class="menu-op cache">
+		<div class="tip ptm-text-primary">自动预读章节,断网也可继续阅读!</div>
+		<div class="ptm-tab ptm-tab-sm" style="padding:0 10px 15px;">
+			<ul class="ptm-tab-nav ptm-tab-border">
+				<li class="c0" data-num="0">不预读</li>
+				<li class="c5" data-num="5">5章</li>
+				<li class="c10" data-num="10">10章</li>
+				<li class="c20" data-num="20">20章</li>
+			</ul>
+		</div>
+	</div>
+	<div class="menu-op change">
+		<ul class="ptm-list-view">
+		</ul>
+	</div>
+	<div class="menu-op more">
+		<ul class="ptm-list-view">
+			<li class="ptm-list-view-cell">
+				<a href="javascript:alert('跳转地址');">查看简介</a>
+			</li>
+		</ul>
+	</div>
+	<div class="menu-op setting">
+		<ul class="ptm-list-view">
+			<li class="ptm-list-view-cell">
+				<span class="title">主题</span>
+				<div class="option theme" style="padding-left:20px;">
+					<div class="theme-area theme-default" data-theme="default">
+						<div class="ptm-btn theme-bg"></div>
+					</div>
+					<div class="theme-area theme-sheepskin" data-theme="sheepskin">
+						<div class="ptm-btn theme-bg"></div>
+					</div>
+					<div class="theme-area theme-white" data-theme="white">
+						<div class="ptm-btn theme-bg"></div>
+					</div>
+					<div class="theme-area theme-pink" data-theme="pink">
+						<div class="ptm-btn theme-bg"></div>
+					</div>
+					<div class="theme-area theme-green" data-theme="green">
+						<div class="ptm-btn theme-bg"></div>
+					</div>
+					<div class="theme-area theme-purple" data-theme="purple">
+						<div class="ptm-btn theme-bg"></div>
+					</div>
+				</div>
+			</li>
+			<li class="ptm-list-view-cell active">
+				<span class="title">字号</span>
+				<div class="option fontsize" style="padding-left:20px;">
+					<button class="ptm-btn ptm-btn-outlined ptm-btn-primary dec">减小</button>
+					<span style="width:40px;display: inline-block;text-align: center">20</span>
+					<button class="ptm-btn ptm-btn-outlined ptm-btn-primary inc">加大</button>
+				</div>
+			</li>
+			<li class="ptm-list-view-cell active">
+				<span class="title">翻页</span>
+				<div class="option style">
+					<div class="ptm-tab ptm-tab-sm" style="padding:5px 10px 5px 20px;">
+						<ul class="ptm-tab-nav ptm-tab-border">
+							<li>上下翻页</li>
+							<li>左右平移</li>
+							<li>左右层叠</li>
+						</ul>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="pt-reader">
+	<div class="body">
+		<div class="aboutheader">
+			<div class="title ptm-text-cut">序章 大荒</div>
+			<div class="page"></div>
+		</div>
+		<div class="content anim">
+			<p class="title">序章 大荒</p>
+			<div class="chaptercontent">
+				<p>夜已深，漆黑一片，景物不可见。但山中并不宁静，猛兽咆哮，震动山河，万木摇颤，乱叶簌簌坠落。</p>
+				<p>群山万壑间，洪荒猛兽横行，太古遗种出没，各种可怕的声音在黑暗中此起彼伏，直欲裂开这天地。</p>
+				<p>山脉中，远远望去有一团柔和的光隐现，在这黑暗无尽的夜幕下与万山间犹如一点烛火在摇曳，随时会熄灭。</p>
+				<p>渐渐接近，可以看清那里有半截巨大的枯木，树干直径足有十几米，通体焦黑。除却半截主干外，它只剩下了一条柔弱的枝条，但却在散发着生机，枝叶晶莹如绿玉刻成，点点柔和的光扩散，将一个村子笼罩。</p>
+				<p>确切的说，这是一株雷击木，在很多年前曾经遭遇过通天的闪电，老柳树巨大的树冠与旺盛的生机被摧毁了。如今地表上只剩下八九米高的一段树桩，粗的惊人，而那仅有的一条柳枝如绿霞神链般，光晕弥漫，笼罩与守护住了整个村子，令这片栖居地朦朦胧胧，犹若一片仙乡，在这大荒中显得很神秘。</p>
+				<p>村中各户都是石屋，夜深人静，这里祥和而安谧，像是与外界的黑暗还有兽吼隔绝了。</p>
+				<p>“呜……”</p>
+				<p>一阵狂风吹过，一片巨大的乌云横空，遮住了整片夜空，挡住了那仅有的一点星华，山脉中更加黑暗了。</p>
+				<p>一声凶戾的禽鸣自高天传来，穿金裂石，竟源自那片乌云，细看它居然是一只庞大到不可思议的巨鸟，遮天蔽月，长也不知多少里。</p>
+				<p>路过石村，它俯视下方，两只眼睛宛若两轮血月般，凶气滔天，盯着老柳木看了片刻，最终飞向了山脉最深处。</p>
+				<p>平静了很长一段时间，直到后半夜，大地颤动了起来，一条模糊的身影从远方走来，竟与群山齐高！</p>
+				<p>莫名气息散发，群山万壑死一般的寂静，凶禽猛兽皆蛰伏，不敢发出一点声音。</p>
+				<p>近了，这是一个拥有人形的生物，直立行走，庞大的惊人，身高比肩山岳，浑身没有毛发，通体密布着金色的鳞片，熠熠生辉。面部很平，只有一只竖眼，开合间像是一道金色的闪电划过，犀利慑人。整体血气如海，宛如一尊神魔！</p>
+				<p>它路过此地，看了一眼老柳木，稍作停留后，似乎急于赶路，最终快速远去，许多山峰被其脚步震的轰鸣，山地剧烈颤抖。</p>
+				<p>黎明，一条十米长、水桶粗、银光灿灿的蜈蚣在山中蜿蜒而行，像是白银浇铸而成，每一节都锃亮而狰狞，划过山石时铿锵作响，火星飞溅。但最终它却避过了石村，没有侵入，所过之处黑雾翻腾，万兽避退。</p>
+				<p>一根散发着莹莹绿霞的柔弱柳条在风中轻轻摇曳……</p>
+			</div>
+			<p class="endline">&nbsp;</p>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="dist/script/all.min.js"></script>
+<script type="text/javascript">
+	$(function () {
+		$pt.chapter.init()
+	});
+//	{"fontsize":16,"moon":0,"theme":"default","cache":5,"style":1}
+</script>
+</body>
+</html>
